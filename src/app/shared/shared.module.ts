@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from './button/button.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [ButtonComponent],
   imports: [CommonModule],
-  exports: [],
+  exports: [ButtonComponent],
 })
 export class SharedModule {}
